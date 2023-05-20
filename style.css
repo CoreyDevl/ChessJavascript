@@ -1,7 +1,7 @@
 #gameboard {
     width: 320px;
     height: 320px;
-    background-color: rgb(43, 41, 41);
+    background-color: rgb(134, 132, 132);
     display: flex;
     flex-wrap: wrap;
 }
@@ -11,10 +11,16 @@
     width: 40px;
 }
 
+.square svg {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
 .beige{
-    background-color: rbg(110, 110, 98);
+    background-color: rgb(110, 110, 98);
 }
 
 .brown{
-    background-color: rbg(169, 43, 43);
+    background-color: rgb(235, 159, 159);
 }
